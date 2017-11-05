@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'tablesorter', 'de', {        
+CKEDITOR.plugins.setLang( 'tablesorter', 'en', {        
         contextAsc: 'Sort ascending',
         contextDesc: 'Sort descending',
 } );
