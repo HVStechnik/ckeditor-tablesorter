@@ -67,8 +67,8 @@
 							if(!bText || 0 === bText.length) return 0;
 							else return 1;
 						if(!bText || 0 === bText.length) return -1;
-						if(order == 'desc') return bText.localeCompare(aText);
-						return aText.localeCompare(bText);
+						if(order == 'desc') return bText.localeCompare(aText, undefined, {numeric:true});
+						return aText.localeCompare(bText, undefined, {numeric:true});
 					});
 
 					for (i = 0; i < itemsArr.length; ++i) {
