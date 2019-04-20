@@ -7,7 +7,7 @@
  */
  
  CKEDITOR.plugins.add( 'tablesorter', {
-	lang:"de,en,ru",
+	lang:"de,en,ru,uk",
     init: function( editor ) {
 		
         if ( editor.contextMenu ) {
